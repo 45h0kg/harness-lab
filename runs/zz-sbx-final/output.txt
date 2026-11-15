@@ -1,0 +1,24 @@
+Sun 15 Nov 2026 11:28:53 +04
+$ npm test 2>&1 | tail -4
+actual: 0,
+    expected: 1579,
+    operator: 'strictEqual'
+  }
+
+$ node -e 'console.log(1+1)'
+2
+
+$ git status --short | head -3; echo git-exit=$?
+?? README.md
+?? inside.txt
+?? package.json
+git-exit=0
+
+$ cat ~/.zshrc >/dev/null; echo cat-home-exit=$?
+cat-home-exit=1
+cat: ~/.zshrc: Operation not permitted
+
+$ echo x > ../outside-write.txt; echo write-outside-exit=$?
+write-outside-exit=1
+/bin/sh: ../outside-write.txt: Operation not permitted
+

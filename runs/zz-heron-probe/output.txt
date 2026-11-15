@@ -1,0 +1,6 @@
+# Output of src/probe-overflow.mjs (and its 200-line variant), qwen2.5:7b, raw path, num_ctx 16384,
+# recovered on 2026-11-15 from the Claude Code session that ran it (the console output was not saved at the time).
+chars 6376 prompt_eval_count 3359
+reply: The project codename is HERON-58. The last SKU in the log is SKU-00199.
+chars 79484 prompt_eval_count 8194
+reply: The project codename is not explicitly mentioned in the provided log. The last SKU in the log is SKU-02599.

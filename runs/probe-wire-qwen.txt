@@ -1,0 +1,6 @@
+qwen2.5:7b wire=chat system=bare  tool call 7/10  text only 3/10  empty 0/10  call+text 7  prompt tokens 177  tokens generated: 108,59,86,70,65,62,60,53,70,112
+qwen2.5:7b wire=chat system=full  tool call 1/10  text only 0/10  empty 9/10  call+text 0  prompt tokens 361  tokens generated: 23,26,26,195,23,53,60,103,23,52
+qwen2.5:7b wire=chat system=none  tool call 0/10  text only 10/10  empty 0/10  call+text 0  prompt tokens 168  tokens generated: 85,130,102,81,85,668,73,243,393,72
+qwen2.5:7b wire=raw  system=bare  tool call 10/10  text only 0/10  empty 0/10  call+text 10  opens with call 0  prompt tokens 182  tokens generated: 91,78,95,68,78,88,75,63,61,59
+qwen2.5:7b wire=raw  system=full  tool call 10/10  text only 0/10  empty 0/10  call+text 2  opens with call 8  prompt tokens 366  tokens generated: 52,20,22,20,20,20,20,20,20,43
+qwen2.5:7b wire=raw  system=none  tool call 8/10  text only 2/10  empty 0/10  call+text 8  opens with call 0  prompt tokens 157  tokens generated: 103,64,129,106,81,223,73,78,60,53

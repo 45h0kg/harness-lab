@@ -1,0 +1,22 @@
+{
+  "name": "harness-lab",
+  "version": "1.0.0",
+  "scripts": {
+    "check": "tsc -p .",
+    "scenarios": "tsx src/scenarios.ts",
+    "oracle": "tsx src/oracle.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A coding agent's harness built one piece at a time, with a bench that measures each piece on small local models.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  },
+  "type": "module",
+  "private": true
+}

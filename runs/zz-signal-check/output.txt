@@ -1,0 +1,16 @@
+Sun 15 Nov 2026 11:20:08 +04
+=== lab guard: deny signal (target others)
+/bin/sh: line 0: kill: (59158) - Operation not permitted
+other-kill-exit 1
+own-child-kill-exit 0
+node ok
+git version 2.54.0 (Apple Git-157)
+/bin/sh: line 1: 59160 Terminated: 15          sleep 30
+ victim alive
+=== no rule
+other-kill-exit 0
+own-child-kill-exit 0
+node ok
+git version 2.54.0 (Apple Git-157)
+/bin/sh: line 1: 59165 Terminated: 15          sleep 30
+ victim DEAD

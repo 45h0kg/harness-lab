@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+# Run records are large and full of local paths; run the bench to make your own.
+# Kept: the small outputs the chapters cite as evidence.
+runs/*
+!runs/zz-signal-check/
+!runs/zz-sbx-final/
+runs/zz-sbx-final/work/
+!runs/zz-heron-probe/
+!runs/ch10-demo/
+!runs/probe-wire-qwen.txt
+!runs/probe-wire-llama.txt

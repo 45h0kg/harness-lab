@@ -1,0 +1,6 @@
+naive  3.002s status=0 signal=null out="started" :: sleep 20 & echo started
+safe   3.005s error "[killed: timed out after 3000 ms]\nstarted\n"
+naive  3.003s status=null signal=SIGTERM out="" :: node -e 'setInterval(()=>{},1000)'
+safe   3.006s error "[killed: timed out after 3000 ms]\n"
+naive  0.006s status=0 signal=null out="got" :: read x; echo got $x
+safe   0.005s "[exit code 0]\ngot\n"
